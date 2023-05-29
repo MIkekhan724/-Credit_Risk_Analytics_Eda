@@ -1,30 +1,31 @@
-# -Credit_Risk_Analytics_Eda
+# Supermarket_Sales_Analysis_EDA
 ## Introduction
-The aim of this case study is to perform Risk Analytics with the help of data wrangling and visualisation libraries of Python. The end goal is to derive important insights for the bank to identify the characteristics for bad loan applications.
+This case study presents a real world alike scenario where important decisions are influenced by the data driven insights. We'll explore the transaction level sales data of a supermarket chain , and derive useful business insights.
 
-Domain: Banking Industry
+## Objective
+The supermarket chain wants to run some promotions and they have a fixed budget for the same. Business wants insights from the data on how to most efficiently allocate these funds. The objectives are as following -
 
-## Basic steps in EDA:
-   * Data Wrangling
-   * Univarient Analysis
-   * Bivarient Analysis
-   * Insights
-### Insights drawn from this EDA are crucial in critical business decisions that will help improve banking system to modify their loan application functionality
-## Some powerful Insights drawn form this EDA are:
-The driving factors for a loan default -
+• Provide insights to Marketing head for allocating funds. The funds should be allocated in such a way so that the promotional return can be maximized.
 
-   * Lower the highest education of an applicant, higher the chance of loan default. This is one of the core driving factor in loan defaults.
+• Any new Strategy or strategy changes suggestions to improve revenue.
 
-   * Labourers & Sales staff are major area of concern , with maximum applicants and a significant loan default rate. Drivers also have an alarming combination of counts and default %.
+## Data
+• The data belongs to a supermarket chain in Myanmar, with stores in 3 cities. • This is a sampled data of 1000 transactions and 20 fields for each transaction
 
-   * Applicants on Maternity leave have a whopping 40% loan default rate. Unemployed applicants also have 35% loan defaults
+• All transactions belong to year 2019
 
-   * Low Income range have maximum % of loan defaults. As the Income range increases, loan default probability decreases
+## Steps involved in EDA:
+   1. Data wrangling
+   2. Univarient Analysis
+   3. Bivarient Analysis (including Timeseries Analysis)
+   4. Insights
+## Some Insights based recommendation are as follows:
+• The Members are doing really well in terms of sales numbers for the company. Thus a campaign can be formulated to promote the member sign ups.
 
-   * Among different family status, married ones have the highest likelihood of loan default
+• The spike in Feb sales are a hint that the stores have the potential to have higher sales throughout the year. Specially April to November period sales can be significantly improved by some focused marketing.
 
-   * Applicants with lower Annuity Amount are slightly more likely to default on a loan.
+• Food & Beverages, Home and lifestyle have the maximum AOV among all categories, but constitute just 20% of the total sales together. The ratings are also better than other categories. It is a sign that a strategy around promoting these categories can be formulated.
 
-   * Young applicants are more expected to default on a loan.
+• It is a good sign for the supermarket chain that Females are driving majority of the sales. Even females' dominated categories such as Health & Beauty, Fashion are top product categories. The company can scale this further to improve overall revenue. Female tend to be higher spenders than Men, and company can take more advantage of this data insight.
 
-   * More Men deafault loans as compared to Women
+• Yangon has least sales and AOV of all cities and the difference is significant too. Hence a focused marketing campaign can be launched to meet the potential sale in this city.
