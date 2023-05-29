@@ -5,10 +5,10 @@ The aim of this case study is to perform Risk Analytics with the help of data wr
 Domain: Banking Industry
 
 ## Basic steps in EDA:
-Data Wrangling
-Univarient Analysis
-Bivarient Analysis
-Insights
+   * Data Wrangling
+   * Univarient Analysis
+   * Bivarient Analysis
+   * Insights
 ### Insights drawn from this EDA are crucial in critical business decisions that will help improve banking system to modify their loan application functionality
 ## Some powerful Insights drawn form this EDA are:
 The driving factors for a loan default -
